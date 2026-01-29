@@ -1,6 +1,6 @@
 #!/bin/bash 
 
 
-apt update -y
-apt install appache2 -y 
-rm abcd.txt
+sudo apt update -y
+sudo apt install appache2 -y 
+rm /var/wwww/html/index.html
